@@ -10,5 +10,5 @@ body{
     color: green;
     font-family: 'Work Sans', sans-serif;
     background: url(../image/forest.png) repeat-x top;
-    background-size: cover;
+    background-size: auto 110%;
 }
