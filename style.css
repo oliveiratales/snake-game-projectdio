@@ -1,14 +1,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Zen+Dots&display=swap');
 
 body{
-    height: 95vh;
-    width: 95;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    color: green;
+    color: black;
     font-family: 'Work Sans', sans-serif;
-    background: url(../image/forest.png) repeat-x top;
-    background-size: auto 110%;
+    background: linear-gradient(to right, #00FF7F,#008B8B);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5px;
+    align-items: center;
+    width: 512px;
+    border-radius: 35px;
+    border: 5px #2F4F4F solid;
+    background: lightgreen;
+    font-size: 80%;
+}
+
+.buttonReset {
+    border: none;
+    background-color: #006400;
+    color: white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+canvas {
+    border-radius: 35px;
 }

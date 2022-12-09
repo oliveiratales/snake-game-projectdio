@@ -26,7 +26,7 @@ function createSnake(){
 }
 
 function drawfood(){
-    context.fillStyle = "red"
+    context.fillStyle = "brown"
     context.fillRect(food.x, food.y, box, box);
 }
 
@@ -48,7 +48,7 @@ function startGame(){
     for(i = 1; i < snake.length; i++){
         if(snake[0].x == snake[i].x && snake[0].y == snake[i].y){
             clearInterval(game);
-            alert('Game Over :(');
+            alert('Game Over! Pressione o botão Reset para recomeçar.');
         }
     }
 
